@@ -6,6 +6,7 @@ export default class HelloWorld extends LightningElement {
    
    emps=[];
    a=5;
+   b=6;
 
    connectedCallback(){
        getAllEmployees().then(result =>{
