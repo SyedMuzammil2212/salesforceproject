@@ -12,7 +12,7 @@ export default class HelloWorld extends LightningElement {
         this.emps = result;
         console.log('All Employees',result)
     }).catch(err=>{
-console.log('Error in calling employees');
+console.log('Error in calling employees calling ');
     });
     
    }
